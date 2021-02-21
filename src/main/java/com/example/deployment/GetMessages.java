@@ -9,6 +9,6 @@ public class GetMessages{
 
     @GetMapping("/{data}")
     public String getGreeting(@PathVariable("data") String data)  {
-        return data;
+        return "Hi "+data;
     }
 }
